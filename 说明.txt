@@ -1,0 +1,1 @@
+如果导入translation.sql后打开words表没有内容显示的话请再将word.sql导入，因为该表较大。

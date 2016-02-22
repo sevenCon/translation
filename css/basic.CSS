@@ -1,0 +1,387 @@
+BODY {
+	
+	background-image:url(../image/body-bg.jpg);
+	
+	margin:0px;
+        font: 12px Tahoma,Helvetica,"Trebuchet MS",sans-serif;
+	
+}
+div{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+CENTER
+{
+       margin:0px;
+}
+A:LINK, A:VISITED {
+	color:#2fb3cf;
+	text-decoration : none;
+}
+
+A:HOVER {
+	
+	color : #babdc0;
+	text-decoration : none;
+}
+
+a{
+	color:#2fb3cf;
+	-webkit-transition: all 0.3s linear;
+}
+.sidebar{
+    background-image:url(../image/navigator.png);
+	height:680px;
+	width:250px;
+	float:left;
+	margin-top:10px;
+}
+
+.logo
+{
+    width:185px;
+    height:37px;
+    background-image:url(../image/logo.png);
+    margin-left:110px;
+    
+}
+.header
+{
+        min-width:400px;
+        width:100%;
+	height:68px;
+	background-image:url(../image/footer-bg.jpg);
+	
+}
+.wraplogo
+{
+        width:185px;
+        float:left;
+}
+.warning{
+		color: red;
+		
+		margin-top: 30px;
+		font-size: 120%;
+}
+.logoblank
+{
+        width:147px;
+        height:15px;
+}
+#exitbutton{
+    float:right;
+	height:25px;
+	width:80px;
+	margin:68px 10% 0 10px;
+	margin-right:20px;
+	background-color:#000066;
+	text-align:center;
+	color:#FFFFFF;
+	font-size:15px;
+	font-weight:bold;
+	border:none;
+	border-radius:0px 0px 4px 4px; 
+	-moz-border-radius:4px; 
+	/*
+        -webkit-border-radius:4px;
+        */
+	cursor:pointer;	
+	-webkit-transition: all 0.3s linear;
+}
+.wrapper
+{
+    margin-top:0px;
+	width:1173px;
+        height:700px;
+	
+	
+}
+.rightmain
+{
+	padding:0px;
+	margin:0px;
+	margin-top:100px;
+	float:left;
+	height:600px;
+	width:800px;
+
+	overflow:visible;
+
+	
+}
+#blank_top
+{
+    width:250px;
+	height:260px;
+	overflow:hidden;
+}
+.sideitem{
+	cursor:pointer;
+	
+	height:32px;
+	width:250px;
+	
+/*	border-left-style: dashed;
+	border-left-width: 2px;
+	border-left-color: #5F9EA0;
+	border-right-style: dashed;
+	border-right-width: 2px;
+	border-right-color: #5F9EA0; */
+}
+.sideitem1
+{
+    height:37px;
+}
+.greeting
+{
+    
+    margin-top:168px;
+	margin-left:23px;
+}
+.stu_name
+{
+	
+	color:rgb(105, 112, 136);
+	font-size:18px;
+}
+.stu_id
+{
+        font-size:16px;
+	color:rgb(105, 112, 136);
+}
+#footer {
+        height: 216px;
+        background: url(../image/footer-bg.jpg) repeat-x bottom;
+        width: 100%;
+        float: left;
+        padding-top: 23px;
+}
+#footer-inner {
+        width: 960px;
+        margin: 0 auto;
+	padding: 0 20px;
+	display: table;
+}
+.client-say {
+	width: 465px;
+	margin-right: 20px;
+	float: left;
+}
+.footer-details {
+	width: 220px;
+	float: left;
+	margin-right: 35px;
+}
+.footer-details {
+	width: 220px;
+	float: left;
+	margin-right: 35px;
+}
+.no-margin {
+	margin: 0px !important;
+}
+.Finfo {
+        
+	width: 960px;
+	font-family: tahoma,arial;
+	line-height: 46px;
+	color: #bbbdc0;
+	background: url(../image/info-bg.png) repeat-x bottom;
+	height: 46px;
+	margin: 10px auto 0;
+	border-radius: 5px 6px 0 0;
+	padding: 0 20px;
+}
+.copyright {
+	float: left;
+}
+.address {
+	padding-left: 20pxa;
+	color: #babdc0;
+	font-family: tahoma,arial;
+	padding-bottom: 19px;
+}
+#footer-inner h3 {
+	font-size: 18px;
+	border-bottom: 1px dotted #6a6a6a;
+	font-weight: normal;
+	padding-bottom: 9px;
+	letter-spacing: 1px;
+	margin-bottom: 13px;
+	color: #fff;
+	text-shadow: 0px 0px 1px #000;
+}
+#footer-inner p {
+	color: #fff;
+	text-shadow: 0px 0px 1px #000;
+line-height: 22px;
+}
+.address strong {
+	font-weight: bold;
+	color: #fff;
+	display: block;
+	float: left;
+	padding-bottom: 8px;
+	padding-right: 4px;
+	font-family: Arial,Helvetica,sans-serif;
+}
+.address img {
+	float: left;
+	padding-right: 7px;
+}
+p
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+
+}
+.flleft {
+	float: left !important;
+}
+
+h3
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	ertical-align: baseline;
+}
+#footer-inner img.grayborR {
+	border: 1px solid #a3a3a3;
+	background: #ccc;
+	padding: 3px;
+	-webkit-transition: all 0.3s linear;
+	-moz-transition: all 0.3s linear;
+	-o-transition: all 0.3s linear;
+	-transition: all 0.3s linear;
+}
+img.grayborR {
+	padding: 5px;
+	border: 1px solid #c8c8c8;
+	margin-right: 20px;
+	margin-top: 8px;
+	margin-bottom: 15px;
+}
+.button_style
+{
+        background-color:#337AB7;
+        border:none;
+        width: 300px;
+	height: 32px;
+	color: white;
+        font: 19px Tahoma,Helvetica,"Trebuchet MS",sans-serif;
+	margin-top: 15px;
+	cursor:pointer;
+	border-radius:3px;
+}
+
+
+.login_blank
+{
+	height:204px;	
+        width:500px;
+        background-image:url(../image/indexlogo.png);
+
+	margin-top:20px;
+}
+#tips
+{
+        font-size:17px;
+        FONT-FAMILY: Microsoft Yahei;
+        margin-left:10px;
+        margin-top:10px;
+        display:block;
+        color:rgb(162, 137, 137);
+	float:left;
+}
+#tips1
+{
+        font-size:17px;
+        FONT-FAMILY: Microsoft Yahei;
+        margin-left:10px;
+        margin-top:10px;
+        display:block;
+        color:rgb(162, 137, 137);
+	float:right;
+	
+	
+}
+.top_info
+{
+	min-width:400px;
+        height:33px;
+}
+#arrow
+{
+	float:right;
+	margin-right:5%;
+	margin-top:10px;
+	margin-left:5px;
+}
+
+#indexform
+{
+	margin-top:10px;
+}
+.logininput
+{
+	position:relative;
+	width:287px;
+	height:34px;
+	background:transparent;
+	color: #494949;
+        border: 1px solid #9DADC5;
+	font-size:20px;
+	outline: none;
+	border-radius:3px;
+	padding:0 4px;
+        
+}
+.txt:focus
+{
+	border:1px solid #9BBBDA;
+	box-shadow:0 0 5px 1px rgba(110,189,222,0.5);
+	-webkit-box-shadow:0 0 5px 1px rgba(110,189,222,0.5);
+}
+.td
+{
+	position:relative;
+        padding:5px 0px;
+}
+.log_lab
+{
+	position:absolute;
+	height:34px;
+	width:280px;
+	line-height:34px;
+	font-size:14px;
+	color: #8B9096;
+	border-radius:3px;
+	-webkit-border-radius:3px;
+	padding:0 7px;
+	background:white;
+        top:5px;
+	left:2px;
+}
+.radio
+{
+	font-family:Microsoft Yahei;
+	font-size:19px;
+	color:rgb(102,96,96);
+}
+.copyright1
+{
+	margin-top:90px;
+	font-size:14px;
+}

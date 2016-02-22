@@ -1,0 +1,21 @@
+.classes{
+    border:0;
+}
+
+.classes tr th{
+    background: #337AB7;
+    color:#ffffff;
+    border-radius: 4px;
+}
+.classes tr td{
+    text-align: center;
+    padding:6px 0px;
+}
+.classes tr td p{
+    font-weight: bold;
+  }
+ 
+ .classes tr td a{
+    text-decoration: none;
+    color:#000;
+ }
